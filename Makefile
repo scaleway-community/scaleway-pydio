@@ -6,7 +6,11 @@ TITLE =			Pydio
 DESCRIPTION =		Pydio
 DOC_URL =		https://www.scaleway.com/docs/deploy-pydio-with-object-storage
 SOURCE_URL =		https://github.com/scaleway/image-app-pydio
+VENDOR_URL =		https://pyd.io/
 
+IMAGE_VOLUME_SIZE =	150G
+IMAGE_BOOTSCRIPT =	stable
+IMAGE_NAME =		Pydio 6
 
 ## Image tools  (https://github.com/scaleway/image-tools)
 all:	docker-rules.mk
