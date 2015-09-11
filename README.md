@@ -1,6 +1,6 @@
 # Official Pydio image on Scaleway
 
-[![Travis](https://img.shields.io/travis/scaleway/image-app-pydio.svg)](https://travis-ci.org/scaleway/image-app-pydio)
+[![Travis](https://img.shields.io/travis/scaleway-community/scaleway-pydio.svg)](https://travis-ci.org/scaleway-community/scaleway-pydio)
 [![Scaleway ImageHub](https://img.shields.io/badge/ImageHub-view-ff69b4.svg)](https://hub.scaleway.com/pydio.html)
 [![Run on Scaleway](https://img.shields.io/badge/Scaleway-run-69b4ff.svg)](https://cloud.scaleway.com/#/servers/new?image=fb5ef57d-6ca5-4efb-b925-ab35ecc5b97a)
 

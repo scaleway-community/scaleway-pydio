@@ -1,11 +1,10 @@
-DOCKER_NAMESPACE =	armbuild/
-NAME =			scw-app-pydio
+NAME =			pydio
 VERSION =		latest
 VERSION_ALIASES =	6.0.8 6.0 6
 TITLE =			Pydio
 DESCRIPTION =		Pydio
 DOC_URL =		https://www.scaleway.com/docs/deploy-pydio-with-object-storage
-SOURCE_URL =		https://github.com/scaleway/image-app-pydio
+SOURCE_URL =		https://github.com/scaleway-community/scaleway-pydio
 VENDOR_URL =		https://pyd.io/
 
 IMAGE_VOLUME_SIZE =	150G
