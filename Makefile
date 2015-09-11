@@ -1,5 +1,4 @@
-DOCKER_NAMESPACE =	armbuild/
-NAME =			scw-app-pydio
+NAME =			pydio
 VERSION =		latest
 VERSION_ALIASES =	6.0.8 6.0 6
 TITLE =			Pydio
