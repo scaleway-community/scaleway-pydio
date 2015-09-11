@@ -1,7 +1,7 @@
 DOCKER_NAMESPACE =	armbuild/
 NAME =			scw-app-pydio
 VERSION =		latest
-VERSION_ALIASES =	6.0.7 6.0 6
+VERSION_ALIASES =	6.0.8 6.0 6
 TITLE =			Pydio
 DESCRIPTION =		Pydio
 DOC_URL =		https://www.scaleway.com/docs/deploy-pydio-with-object-storage
