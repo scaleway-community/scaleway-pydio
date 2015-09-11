@@ -22,7 +22,6 @@ RUN apt-get -q update \
         php5-mcrypt \
         php5-mysqlnd \
         pwgen \
-		sqlite	\
  && apt-get clean
 
 ENV PYDIO_VERSION 6.0.8
@@ -34,7 +33,7 @@ RUN wget -qO /tmp/pydio.deb http://dl.ajaxplorer.info/repos/apt/pool/main/p/pydi
 
 
 # Configues Apache/PHP
-RUN a2enmod rewrite \
+RUN a2enmod rewrite && a2enmod ssl && a2ensite default-ssl.conf \
  && ln -sf /usr/share/doc/pydio/apache2.sample.conf /etc/apache2/sites-enabled/pydio.conf \
  && ln -sf /etc/php5/mods-available/mcrypt.ini /etc/php5/apache2/conf.d/
 

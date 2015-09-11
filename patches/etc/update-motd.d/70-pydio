@@ -8,7 +8,7 @@ EOF
 if [ -f /root/.my.cnf ]; then
     cat <<EOF
 MySQL is configured for user root with password $(cat /root/.my.cnf | grep password | awk '{print $3}').
-To continue the installation, open http://$(/usr/local/bin/oc-metadata PUBLIC_IP_ADDRESS)/pydio/index.php?ignore_tests=true in your browser.
+To continue the installation, open https://$(/usr/local/bin/oc-metadata --cached PUBLIC_IP_ADDRESS)/pydio/index.php?ignore_tests=true in your browser.
 EOF
 else
     cat <<EOF
